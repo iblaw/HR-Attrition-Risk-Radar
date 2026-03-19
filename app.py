@@ -214,7 +214,7 @@ if page == "Analytics Dashboard":
             **How to use this data:**
             1. **Prioritize:** Address roles where the **Risk Index** is increasing.
             2. **Audit:** Review compensation for education levels where **Red bars** are significantly lower.
-            3. **Optimize:** Reduce **{top_driver}** to see an immediate impact on workforce stability.
+            3. **Optimize:** Optimize on **{top_driver}** to see an immediate impact on workforce stability.
             """)
 
 # --- PAGE 2: PREDICTOR TOOL ---
