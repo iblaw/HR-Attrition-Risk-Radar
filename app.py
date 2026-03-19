@@ -57,7 +57,7 @@ if page == "Analytics Dashboard":
     st.subheader("Strategic Intelligence Dashboard")
 
     try:
-        data = pd.read_csv('./Dataset/WA_Fn-UseC_-HR-Employee-Attrition.csv')
+        data = pd.read_csv('WA_Fn-UseC_-HR-Employee-Attrition.csv')
         data_encoded = pd.get_dummies(data).reindex(columns=expected_columns, fill_value=0)
         data_scaled = scaler.transform(data_encoded)
         probs = model.predict_proba(data_scaled)[:, 1]
