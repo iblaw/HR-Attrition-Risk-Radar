@@ -1,8 +1,9 @@
+streamlit==1.42.0  # Or your preferred version
+altair<5.0.0       # This forces the v4 that Streamlit is looking for
 pandas
 joblib
-scikit-learn
-xgboost
-streamlit
-matplotlib
 shap
+matplotlib
+numpy
 plotly
+scikit-learn
